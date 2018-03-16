@@ -1,15 +1,17 @@
-package anim.qy.com.anim.bean;
+package anim.qy.com.anim.bean.animation;
 
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.BounceInterpolator;
 
+import anim.qy.com.anim.bean.Anim;
+
 /**
  * Created by Alter on 2018/3/13.
  */
 
-public class CombainAnimation extends Anim{
+public class CombainAnimation extends Anim {
 
     public CombainAnimation(int id, String name) {
         super(id, name);

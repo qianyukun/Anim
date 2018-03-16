@@ -1,13 +1,15 @@
-package anim.qy.com.anim.bean;
+package anim.qy.com.anim.bean.animation;
 
 import android.view.View;
 import android.view.animation.BounceInterpolator;
+
+import anim.qy.com.anim.bean.Anim;
 
 /**
  * Created by Alter on 2018/3/13.
  */
 
-public class TranslateAnimation extends Anim{
+public class TranslateAnimation extends Anim {
 
     public TranslateAnimation(int id, String name) {
         super(id, name);

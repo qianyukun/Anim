@@ -1,12 +1,14 @@
-package anim.qy.com.anim.bean;
+package anim.qy.com.anim.bean.animation;
 
 import android.view.View;
+
+import anim.qy.com.anim.bean.Anim;
 
 /**
  * Created by Alter on 2018/3/13.
  */
 
-public class AlphaAnimation extends Anim{
+public class AlphaAnimation extends Anim {
 
     public AlphaAnimation(int id, String name) {
         super(id, name);

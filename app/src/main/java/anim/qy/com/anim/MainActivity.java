@@ -10,12 +10,13 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
-import anim.qy.com.anim.bean.AlphaAnimation;
+import anim.qy.com.anim.bean.animation.AlphaAnimation;
 import anim.qy.com.anim.bean.Anim;
-import anim.qy.com.anim.bean.CombainAnimation;
-import anim.qy.com.anim.bean.RotateAnimation;
-import anim.qy.com.anim.bean.ScaleAnimation;
-import anim.qy.com.anim.bean.TranslateAnimation;
+import anim.qy.com.anim.bean.animation.CombainAnimation;
+import anim.qy.com.anim.bean.animation.RotateAnimation;
+import anim.qy.com.anim.bean.animation.ScaleAnimation;
+import anim.qy.com.anim.bean.animation.TranslateAnimation;
+import anim.qy.com.anim.bean.animator.ObjectAnimatorAnim;
 
 /**
  * Created by Alter on 2018/3/13.
@@ -53,6 +54,9 @@ public class MainActivity extends AppCompatActivity{
         anims.add(new ScaleAnimation(3,"ScaleAnimation"));
         anims.add(new TranslateAnimation(4,"TranslateAnimation"));
         anims.add(new CombainAnimation(5,"CombainAnimation"));
+
+
+        anims.add(new ObjectAnimatorAnim(6,"ObjectAnimatorAnim"));
         return anims;
     }
 }
